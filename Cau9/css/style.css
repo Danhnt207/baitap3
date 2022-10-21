@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+:root {
+    --primary-color: #09467c;
+    --white-color: white;
+}
+.container {
+    margin: 0 100px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: var(--primary-color);
+}
+.header__logo {
+    align-items: center;
+}
+.header__logo-img {
+    max-width: 400px;
+    height: auto;
+}
+
+.navbar-item--separate::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 15px;
+    background-color: #fff;
+    top: 50%;
+    right: -1px;
+    transform: translateY(-50%);
+}
+
+
+
+.navbar-list {
+    margin-top: 8px;
+    display: flex;
+    list-style: none;
+}
+.navbar-item {
+    position: relative;
+}
+.navbar-item--link {
+    display: block;
+    color: var(--white-color);
+    padding: 0 8px;
+   
+}
+
+.navbar-item--link:hover {
+    opacity: 0.5;
+}
+.navbar__link {
+    margin-top: 24px;
+    display: flex;
+    flex: 1;
+    padding: 0 8px;
+}
+.navbar__link-label {
+    font-weight: 600;
+    color: orange;
+    width: 100px;
+    flex-basis: 32%;
+}
+select {
+    flex-basis: 68%;
+    width: 100%;
+    cursor: pointer;
+    
+}
+
+.content {
+    display: flex;
+}
+.menu {
+    flex-basis: 20%;
+    background-color: var(--primary-color);
+    
+}
+.menu__list {
+    margin-left: 42px;
+}
+.menu__item {
+    padding: 4px 0;
+    color: var(--white-color);
+}
+.menu__item-link {
+    color: var(--white-color);
+}
+.menu__item-link:hover {
+    opacity: 0.5;
+}
+
+.main-content {
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
+
+}
+.main-content__slider {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.main-content__slider--img {
+  max-width: 350px;
+  margin: 0 0 0 8px;
+}
+
+
+.main-content__heading {
+    background-color: #9ac4d0;
+    padding: 4px 16px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+
+.paragraph {
+    background-color: #dae8ec;
+    margin-left: 8px;
+}
+
+.back {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4px;
+    color: var(--primary-color);
+}
+
+.back a {
+    color: var(--primary-color);
+}

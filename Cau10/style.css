@@ -1,0 +1,78 @@
+.header-img {
+    text-align: center;
+}
+.red {
+    color: red;
+}
+.yellow {
+    color: rgb(148, 96, 6);
+}
+.container {
+    margin: 0 200px;
+}
+.header__nav {
+    display: flex;
+    justify-content: center;
+}
+.header__nav-list {
+    display: flex;
+    list-style: none;
+    margin-left: 0;
+}
+.header__nav-item {
+    padding: 0 20px;
+}
+.main-heading {
+    font-size: 36px;
+    font-weight: 600;
+    color: orange;
+}
+.para {
+    color: rgb(28, 188, 28);
+}
+
+.content {
+    display: flex;
+}
+
+.content__left {
+    flex-basis: 70%;
+}
+
+.content__right {
+    padding: 8px;
+    flex-basis: 30%;
+    border: 1px solid rgb(28, 188, 28);
+    background-color: rgb(236, 208, 155);
+}
+
+.header {
+    font-weight: 600;
+    font-size: 20px;
+    color: orange;
+}
+ul {
+    list-style-image: url(./hinh/Apple.jpg);
+}
+
+.para-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.para-item {
+    background-color: rgb(175, 167, 167);
+    color: rgb(9, 103, 9);
+    margin: 8px 24px;
+    padding: 4px;
+}
+
+.para-img {
+    float: right;
+}
+.italic {
+    font-style: italic;
+}
+.space-top {
+    margin-top: 20px;
+}

@@ -1,0 +1,15 @@
+ul {
+    list-style-type: circle;
+}
+a {
+    color: blue;
+}
+
+span {
+    color: purple;
+}
+.container {
+    background-image: url(../hinh/camel.gif);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}

@@ -1,0 +1,120 @@
+.box {
+    display: flex;
+}
+.container {
+    margin: 0 200px;
+    background-color: rgb(230, 230, 203);
+}
+.header {
+    background-color: orange;
+}
+.header-title {
+    color: white;
+    font-size: 48px;
+    margin: 0;
+}
+.box1 {
+    width: 12px;
+    height: 12px;
+    background-color: blue;
+    margin: 12px 8px;
+}
+.box2 {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(25, 25, 177);
+    margin: 12px 8px;
+}
+.box3 {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(68, 68, 232);
+    margin: 12px 8px;
+}
+.box4 {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(14, 205, 205);
+    margin: 12px 8px;
+}
+.box5 {
+    width: 12px;
+    height: 12px;
+    background-color: aqua;
+    margin: 12px 8px;
+}
+
+.main {
+    display: flex;
+}
+.menu {
+    flex-basis: 30%;
+    border: 2px solid blue;
+    margin-top: 8px;
+}
+
+.content {
+    flex-basis: 70%;
+}
+
+.menu-heading {
+    text-align: center;
+    background-color: blue;
+    margin: 4px;
+    color: #fff;
+}
+.list li:nth-child(6) {
+    color: blue;
+    text-decoration: underline;
+}
+.list {
+    list-style: none;
+}
+.list li {
+    padding: 4px 0;
+}
+.list li a {
+    color: #000;
+    text-decoration: none;
+}
+.list li a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    height: 425px;
+    margin-left: 24px;
+}
+
+td {
+    border: black solid 2px;
+    padding: 5px;
+}
+
+th {
+    border: blue solid 2px;
+    height: 30px;
+    background-color: darkorange;
+    color: white;
+}
+
+.content-heading {
+    color: blue;
+    letter-spacing: 5px;
+    margin: 4px;
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 24px;
+}
+
+span {
+    color: blue;
+    font-weight: 600;
+}
+
+.footer {
+    text-align: center;
+}

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+}
+.container {
+    background-color: orange;
+    padding: 8px;
+    margin: 0 300px;
+}
+.header {
+    text-align: center;
+}
+.nav {
+    text-align: center;
+    background-color: bisque;
+    border: 3px solid #ccc;
+}
+
+.main {
+    display: flex;
+}
+
+.content {
+    flex-basis: 80%;
+}
+.menu {
+    margin-left: 12px;
+    flex-basis: 20%;
+    background-color: aquamarine;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    
+}
+ul li {
+    margin-left: 0;
+}
+
+.heading {
+    color: purple;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 12px 0;
+}
+
+.menu-sub-heading {
+    color: purple;
+    margin: 24px 0;
+}
+.menu-heading {
+    color: purple;
+    font-size: 20px;
+}
+
+.content-img {
+    float: right;
+}
+
+.bottom-img {
+    float: left;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
